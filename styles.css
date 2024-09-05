@@ -1,0 +1,86 @@
+body {
+    padding-top: 56px; /* Compensar o espaço ocupado pelo header fixo */
+}
+
+body {
+    padding-top: 56px; /* Compensar o espaço ocupado pelo header fixo */
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #dc3545; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto para contraste */
+}
+
+header a {
+    color: white; /* Cor dos links */
+}
+
+header a:hover {
+    color: #f8f9fa; /* Cor dos links ao passar o mouse */
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel {
+    margin-top: 60px; /* Espaço para o header fixo */
+}
+
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel {
+    margin-top: 60px; /* Espaço para o header fixo */
+}
+
+footer {
+    background: red;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+footer {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 767.98px) {
+    .imagem-produto {
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .imagem-produto {
+        height: 180px;
+    }
+}

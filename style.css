@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 12000px;
+}
+
+
+.right-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-categories ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.menu-categories ul li a {
+    color: white;
+    text-decoration: none;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.search-button {
+    background: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.search-button i {
+    font-size: 16px;
+}
+
+.carrinho {
+    color: white;
+    margin-left: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+.imagem-produto {
+    height: 200px;
+    object-fit: cover;
+}
+
+.corpo-card {
+    text-align: center;
+}
+
+.filtros {
+    padding: 0 15px;
+}
+
+.filtros h4 {
+    margin-bottom: 20px;
+}
+
+.filtros form {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.faixa-preco {
+    margin-bottom: 20px; 
+}
+
+.valor-preco {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+footer {
+    background: red;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.carrinho {
+    color: white;
+    margin-left: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .imagem-produto {
+        height: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .imagem-produto {
+        height: 180px;
+    }
+}

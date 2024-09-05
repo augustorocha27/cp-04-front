@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+
+            </a>
+            <div class="right-content">
+                <div class="menu-categories">
+                    <nav>
+                        <ul>
+                            <li><a href="outro.html">Menu</a></li>
+                            
+                            <li><a href="home.html">Contato</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <form action="search.html" method="get" class="search-form" aria-label="Search">
+                    <input type="text" name="q" placeholder="Buscar..." class="search-input" aria-label="Search query">
+                    <button type="submit" class="search-button" aria-label="Search">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                <a href="teste.html" class="carrinho" aria-label="Shopping Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+   
+    <div class="container my-5">
+        <div class="row">
+            
+            <aside class="filtros col-md-3 mb-4 mb-md-0">
+                <h4>Filtros</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="faixaPreco">Faixa de Preço</label>
+                        <input type="range" class="faixa-preco" id="faixaPreco" min="0" max="1500" step="10" value="0">
+                        <div id="valorPreco" class="valor-preco mt-2">R$ 0</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipoProduto">Tipo de Produto</label>
+                        <select class="form-control" id="tipoProduto">
+                            <option>Todos</option>
+                            <option>Bonés</option>
+                            <option>Camisetas</option>
+                            <option>Calçados</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="marca">Marca</label>
+                        <select class="form-control" id="marca">
+                            <option>Todos</option>
+                            <option>Marca A</option>
+                            <option>Marca B</option>
+                            <option>Marca C</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Aplicar Filtros</button>
+                </form>
+            </aside>
+
+            
+            <main class="produtos col-md-9">
+                <div class="row">
+                    
+                    <div class="produto col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Screenshot_17.png" class="imagem-produto card-img-top" alt="Produto 1">
+                            <div class="corpo-card card-body">
+                                <h5 class="titulo-produto card-title">Boné Nike</h5>
+                                <p class="preco-produto card-text">R$ 99,90</p>
+                                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="produto col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Screenshot_16.png" class="imagem-produto card-img-top" alt="Produto 2">
+                            <div class="corpo-card card-body">
+                                <h5 class="titulo-produto card-title">Boné Puma</h5>
+                                <p class="preco-produto card-text">R$ 149,90</p>
+                                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="produto col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Screenshot_15.png" class="imagem-produto card-img-top" alt="Produto 3">
+                            <div class="corpo-card card-body">
+                                <h5 class="titulo-produto card-title">Camiseta Adidas</h5>
+                                <p class="preco-produto card-text">R$ 75,90</p>
+                                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produto col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Screenshot_14.png" class="imagem-produto card-img-top" alt="Produto 3">
+                            <div class="corpo-card card-body">
+                                <h5 class="titulo-produto card-title">Tênis Campus Adidas</h5>
+                                <p class="preco-produto card-text">R$ 459,99</p>
+                                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produto col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Screenshot_18.png" class="imagem-produto card-img-top" alt="Produto 3">
+                            <div class="corpo-card card-body">
+                                <h5 class="titulo-produto card-title">Tênis Puma</h5>
+                                <p class="preco-produto card-text">R$ 379,90</p>
+                                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produto col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="Screenshot_19.png" class="imagem-produto card-img-top" alt="Produto 3">
+                            <div class="corpo-card card-body">
+                                <h5 class="titulo-produto card-title">Boné Adidas</h5>
+                                <p class="preco-produto card-text">R$ 199,90</p>
+                                <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <section class="contact-info">
+                <h2>Informações de Contato</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:contato@exemplo.com">contato@panclothes.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+5511999999999">+55 11 99999-9999</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                        <a>Rua Arlindo Cruz, 1979 - Água Funda - São Paulo - SP </a></li>
+                </ul>
+            </section>
+            <section class="footer-info">
+                <p>&copy; 2024 Pan Clothes. Todos os direitos reservados.</p>
+            </section>
+        </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

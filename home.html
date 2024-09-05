@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            </a>
+            <div class="right-content">
+                <div class="menu-categories">
+                    <nav>
+                        <ul>
+                            <li><a href="outro.html">Menu</a></li>
+                            <li><a href="index.html">Produtos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <form action="search.html" method="get" class="search-form" aria-label="Search">
+                    <input type="text" name="q" placeholder="Buscar..." class="search-input" aria-label="Search query">
+                    <button type="submit" class="search-button" aria-label="Search">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </form>
+                <a href="teste.html" class="carrinho" aria-label="Shopping Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="contact-form">
+                <h1>Envie uma Mensagem</h1>
+                <form action="enviar-mensagem.php" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <section class="contact-info">
+                <h2>Informações de Contato</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:contato@exemplo.com">contato@panclothes.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+5511999999999">+55 11 99999-9999</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                        <a>Rua Arlindo Cruz, 1979 - Água Funda - São Paulo - SP </a></li>
+                </ul>
+            </section>
+            <section class="footer-info">
+                <p>&copy; 2024 Pan Clothes. Todos os direitos reservados.</p>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
